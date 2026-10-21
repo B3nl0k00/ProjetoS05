@@ -43,7 +43,7 @@ class AulasComponent extends HTMLElement {
               <div class="comp-aula">
                 <div class="lable-prova p_lable" style="${provaDisplay}">PROVA: <b>${a.prova}</b></div>
                 <div class="titulo_aula">${a.disciplina}</div>
-                <p class="p">Local e Horário: <b>${a.local} - ${a.horario}</b></p>
+                <p class="p">Local e Horario: <b>${a.local} - ${a.horario}</b></p>
                 <div class="lables">
                   <div class="lable-frequencia p_lable">FALTAS: <b>${a.frequencia}</b></div>
                   <div class="${notaClass} p_lable">CR: <b>${a.nota}</b></div>
